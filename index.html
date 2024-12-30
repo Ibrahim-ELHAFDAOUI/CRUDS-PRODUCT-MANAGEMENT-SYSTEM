@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="head">
+            <h1>CRUDS</h1>
+            <H4>PRODUCT MANAGEMENT SYSTEM</H4>
+        </div>
+        <div id="input">
+            <input type="text" id="title" placeholder="title">
+            <div id="inputs4">
+                <input type="number" name="" id="price" placeholder="price">
+                <input type="number" placeholder="ads"  id="ads">
+                <input type="number"  placeholder="taxes" id="taxes">
+                <input type="number" placeholder="discount"  id="discount">
+            </div>
+            
+            
+            <input type="text" id="category" placeholder="category">
+            <input type="number" id="count" placeholder="count">
+            <button id="create">Create</button>
+            <input type="text" placeholder="search" id="search">
+            <button id="searchtitle">Search by title</button>
+            <button id="searchcategory">Search by Category</button>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>TITLE</th>
+                    <th>PRICE</th>
+                    <th>ADS</th>
+                    <th>TAXES</th>
+                    <th>DISCOUNT</th>
+                    <th>CATEROGY</th>
+                    <th>Delete</th>
+                    <th>update</th>
+                </tr>
+            
+                <tbody id="MyTable">
+                    
+                   
+    <div id="deleteAll">
+
+    </div>
+
+                </tbody>
+            </thead>
+        </table>
+        
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
